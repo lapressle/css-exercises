@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -21,6 +25,25 @@ body {
   width: 48px;
   height: 48px;
 }
+
+.left {
+  display: flex;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  gap: 16px
+}
+
+ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 16px;
+  align-items: center;
+}
+
 
 .logo {
   color: rebeccapurple;
